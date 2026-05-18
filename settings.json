@@ -19,8 +19,8 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "chalol78"
+      "password": "chalol78",
+      "enabled": true
     },
     "anti-afk": {
       "enabled": true,
@@ -30,13 +30,15 @@
       "enabled": true,
       "repeat": true,
       "repeat-delay": 80,
-      "messages": "messages": [
-      "Are u winning Son ?",
-      "/tellraw @a [{\"text\":\"Follow \",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://whatsapp.com/channel/0029VajWJmkAInPnfgGtrS2K\"},\"extra\":[{\"text\":\"TechKey Digital World \",\"color\":\"aqua\"},{\"text\":\"on WhatsApp\",\"color\":\"green\"}]}]",
-      "Technoblade never dies...",
-      "TechKey SMP | By Agent X & CloudGamer",
-      "/tellraw @a {\"text\":\"Join our Minecraft Chat Group\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chat.whatsapp.com/BS6uBZ5Pd9W3rTUGrzqG2F\"}}"
-  ]
+      "messages": [
+        "Are u winning Son ?",
+        "/tellraw @a [{\"text\":\"Follow \",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://whatsapp.com/channel/0029VajWJmkAInPnfgGtrS2K\"},\"extra\":[{\"text\":\"TechKey Digital World \",\"color\":\"aqua\"},{\"text\":\"on WhatsApp\",\"color\":\"green\"}]}]",
+        "Technoblade never dies...",
+        "TechKey SMP | By Agent X & CloudGamer",
+        "/tellraw @a {\"text\":\"Join our Minecraft Chat Group\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://chat.whatsapp.com/BS6uBZ5Pd9W3rTUGrzqG2F\"}}",
+        "/tellraw @a [{\"text\":\"Welcome to TechKey SMP\\n\",\"color\":\"blue\",\"bold\":true},{\"text\":\"Build Secret Bases | Set Traps | Make Teams | Get Rich\",\"color\":\"white\"}]",
+        "/tellraw @a [{\"text\":\"Rules \",\"color\":\"red\",\"bold\":true},{\"text\":\"--> X-Raying not Allowed!\",\"color\":\"gold\"}]"
+      ]
     },
     "chat-log": true,
     "auto-reconnect": true,
